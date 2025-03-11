@@ -1,0 +1,184 @@
+Reset some basic styles * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  height: 100%;
+  line-height: 1.7;
+  /* background-color: #F8F9FA !important; */
+}
+
+::selection {
+  background-color: black;
+  color: white;
+  /* selected text color */
+}
+
+.navbar {
+  align-items: center;
+  /* padding: 20px; */
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-brand {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.nav-item a {
+  padding: 5px 20px !important;
+}
+
+.navbar-nav li a:hover {
+  color: #007bff !important;
+}
+
+.img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(assets/images/hero_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+.img h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: black !important;
+  border: black;
+  transition: background-color 0.3s ease;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+
+
+/* footer css */
+.footer {
+  background-color: #333333 !important;
+  padding-bottom: 100px !important;
+  padding-top: 100px !important;
+  width: 100% !important;
+
+}
+
+.footer a {
+  color: #697073 !important;
+  text-decoration: none;
+  padding-bottom: 150px !important;
+}
+
+.footer a:hover {
+  color: #aaa;
+}
+
+.d-flex a {
+  color: #697073 !important;
+  padding: 0 px 8px !important;
+}
+
+.d-flex a:hover {
+  color: white !important;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer .input-group {
+  max-width: 250px;
+  /* width: 400px !important; */
+}
+
+.input-group input {
+  background-color: transparent !important;
+  border: 1px solid #697073 !important;
+  border-radius: 25px 0px 0px 25px !important;
+}
+
+.input-group input::placeholder {
+  color: #ccc !important;
+}
+
+.footer .input-group .btn {
+  border-radius: 0px 25px 25px 0px !important;
+  background-color: white !important;
+  border: 1px solid #007bff !important;
+}
+
+.footer hr {
+  border-top: 1px solid white;
+}
+
+
+/* form-css*/
+.form-control:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-color: #007bff !important;
+}
+
+.form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.ul-li a:hover {
+  color: white !important;
+}
+
+.msg {
+  border-radius: 30px !important;
+}
+
+.contact {
+  font-weight: 900;
+
+}
+
+footer p {
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.icon .card {
+  overflow: hidden;
+}
+
+.icon ul {
+  background-color: #007bff;
+  opacity: 0;
+  padding:  20px;
+  font-size: 15px;
+  transform: translateX(-100%);
+  transition: all 0.2s linear;
+  height: 289px;
+}
+
+.icon .card:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.list-unstyled li i {
+  color: #fff;
+  line-height: 2.5;
+}
